@@ -1,0 +1,187 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    /*задает высоту относительно контента*/
+
+    justify-content: space-between;
+    border-bottom: 1px solid#b5b5b57a;
+    padding: 20px 0;
+
+}
+
+.menu{
+    display: flex;
+    /*border: 6px solid olivedrab;*/
+
+}
+
+.menu div a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 19px;
+}
+
+.menu_icon_wrapper{
+    display: none;
+}
+
+.MenuMob{
+    display: none;
+}
+@media screen and (max-width: 1694px){
+    .menu div a{
+        font-size: 18px;
+    }
+    img{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 1550px){
+    .menu div a{
+        padding: 15px;
+    }
+    img{
+        width: 175px;
+    }
+}
+
+
+@media screen and (max-width: 1460px) {
+    .menu div a{
+        padding: 13px;
+    }
+    img{
+        width: 173px;
+    }
+
+}
+
+@media screen and (max-width: 1390px) {
+    .menu div a{
+        font-size: 17px;
+        padding: 11px;
+    }
+
+    img{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 1340px) {
+    .menu div a{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    img{
+        width: 165px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .menu div a{
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    img{
+        width: 161px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .menu div a{
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    img{
+        width: 157px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .menu div a{
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    img{
+        width: 155px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .menu div a{
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    img{
+        width: 151px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .menu div a{
+        font-size: 15px;
+        padding: 6px;
+    }
+
+    img{
+        width: 146px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .menu div a{
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    img{
+        width: 138px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .menu div a{
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    img{
+        width: 133px;
+    }
+    .MenuMob{
+        display: block;
+    }
+    .menu{
+        display:none;
+    }
+
+}
+@media screen and (max-width: 800px) {
+
+
+
+
+
+
+}
+
+
+.menu div a:hover{
+    color:beige;
+    /*text-decoration: underline;*/
+    border-bottom: 1px beige solid;
+
+
+
+}
+
+.headerContent{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63%;
+    margin: 0 auto;
+}
+
+
+

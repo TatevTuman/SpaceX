@@ -1,0 +1,46 @@
+
+.App {
+    /*width: 60px;*/
+    /*margin: 0 auto;*/
+    /*display: flex;*/
+
+
+}
+
+.main {
+    background-image: url(./Photo/siteFon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.box1 {
+    /*border: 6px solid saddlebrown ;*/
+    /*padding: 25px;*/
+    /*margin: 50px;*/
+    margin-top: 20px;
+}
+
+.box2 {
+    /*background-color: black;*/
+    /*border: 6px solid red ;*/
+    /*padding: 25px;*/
+    /*margin: 50px;*/
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 950px) {
+
+    .main {
+        background-image: url(./Photo/fonmob.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 150px;
+    }
+
+
+}
+
+

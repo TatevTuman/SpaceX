@@ -1,0 +1,676 @@
+.bodyStyle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxOne {
+    color: white;
+    /*border: 4px solid olivedrab;*/
+
+
+}
+
+/*.boxTwo {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    !*задает высоту относительно контента*!*/
+/*    border: 4px solid salmon;*/
+/*    margin-left: 544px;*/
+/*}*/
+
+.boxOne .treval {
+
+    font-size: 30px;
+    background: linear-gradient(45deg, #ffffff 40%, #ff541f 79%, #ff440b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boxOne .redPlanet {
+    font-size: 18px;
+    background: linear-gradient(45deg, #ffffff 10%, #ffe8e1 40%, #ffb69f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: #0B2349;*/
+
+    /*margin: 20px auto;*/
+
+}
+
+
+button {
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+    background-color: transparent;
+    border-image-slice: 1;
+    cursor: pointer;
+
+}
+
+.border_gradient_purple {
+    font-size: 17px;
+    border-image-source: linear-gradient(to left, white, #273f66);
+    outline: none;
+
+}
+
+.bodyContent {
+    display: flex;
+    width: 63%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.buttonCSS {
+    display: flex;
+    margin-top: 250px;
+    margin-left: 24px;
+    /*border: 1px solid red;*/
+}
+
+.treval {
+    display: none;
+}
+
+.redPlanet {
+    display: none;
+}
+
+
+@media screen and (max-width: 1890px) {
+    .border_gradient_purple {
+        font-size: 16px;
+    }
+
+    .buttonCSS {
+        margin-top: 230px;
+        margin-left: 10px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1790px) {
+    .border_gradient_purple {
+        font-size: 16px;
+    }
+
+    .buttonCSS {
+        margin-top: 235px;
+        margin-left: 10px;
+    }
+    .bodyMob{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1694px) {
+    .border_gradient_purple {
+        font-size: 15px;
+    }
+
+    .buttonCSS {
+        margin-top: 235px;
+        margin-left: 10px;
+    }
+    .bodyMob{
+        display: none;
+    }
+
+    /*.boxTwo {*/
+    /*   */
+    /*    margin-left: 544px;*/
+    /*}*/
+
+}
+
+@media screen and (max-width: 10000px) {
+
+    .bodyMob{
+        display: none;
+    }
+
+}@media screen and (max-width: 1550px) {
+    .border_gradient_purple {
+        font-size: 14px;
+    }
+
+    .buttonCSS {
+        margin-top: 235px;
+        margin-left: -6px;
+    }
+    .bodyMob{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1460px) {
+
+    .buttonCSS {
+        margin-top: 220px;
+        margin-left: -18px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1390px) {
+    .border_gradient_purple {
+        font-size: 13px;
+    }
+
+    .buttonCSS {
+        margin-top: 210px;
+        margin-left: -25px;
+
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .border_gradient_purple {
+        font-size: 13px;
+    }
+
+    .buttonCSS {
+        margin-top: 190px;
+        margin-left: -40px;
+
+    }
+
+    button {
+        padding: 5px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .border_gradient_purple {
+        font-size: 13px;
+    }
+
+    .buttonCSS {
+        margin-top: 175px;
+        margin-left: -50px;
+
+    }
+
+    button {
+        padding: 4px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .border_gradient_purple {
+        font-size: 12px;
+    }
+
+    .buttonCSS {
+        margin-top: 170px;
+        margin-left: -55px;
+
+    }
+
+    button {
+        padding: 4px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .border_gradient_purple {
+        font-size: 11px;
+    }
+
+    .buttonCSS {
+        margin-top: 165px;
+        margin-left: -60px;
+
+    }
+
+    button {
+        padding: 4px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .border_gradient_purple {
+        font-size: 10px;
+    }
+
+    .buttonCSS {
+        margin-top: 160px;
+        margin-left: -70px;
+
+    }
+
+    button {
+        padding: 4px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .border_gradient_purple {
+        font-size: 15px;
+        margin: 30px;
+    }
+    .treval {
+        display: block;
+    }
+    .redPlanet {
+        display: block;
+    }
+    .mobVertion {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .benefitsCSS {
+        margin-top: 50px;
+        /*margin-left: 80px;*/
+    }
+.mobVertion{
+    /*border: 3px solid pink;*/
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 35px;
+}
+    .boxOne .treval {
+        font-size: 27px;
+    }
+    .border_gradient_purple {
+        font-size: 13px;
+        margin-left: -1px;
+    }
+    .bodyMob{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .bodyContent{
+        display: none;
+    }
+
+    .bodyMob{
+        display: block;
+    }
+    .trevalMob{
+        font-size: 22px;
+        background: linear-gradient(45deg, #ffffff 40%, #ff541f 79%, #ff440b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-left: 30px;
+    }
+    .redPlanetMob{
+        font-size: 15px;
+        background: linear-gradient(45deg, #ffffff 10%, #ffe8e1 40%, #ffb69f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-left: 30px;
+    }
+    .border_gradient_purpleMob{
+        font-size: 15px;
+        border-image-source: linear-gradient(to left, white, #273f66);
+        outline: none;
+        margin-top: 330px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+.BenefitsMob{
+
+    margin-left: 160px;
+    margin-top: 25px;
+}
+
+
+}
+
+
+@media screen and (max-width: 475px) {
+.BenefitsMob{
+    margin-left: 155px;
+    margin-top: 25px;
+}
+}
+
+@media screen and (max-width: 470px) {
+.BenefitsMob{
+    margin-left: 149px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 22px;
+        padding-left: 28px;
+    }
+    .redPlanetMob{
+        font-size: 15px;
+        padding-left: 28px;
+    }
+}
+@media screen and (max-width: 455px) {
+.BenefitsMob{
+    margin-left: 144px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 22px;
+        padding-left: 26px;
+    }
+    .redPlanetMob{
+        font-size: 15px;
+        padding-left: 26px;
+    }
+}
+@media screen and (max-width: 445px) {
+.BenefitsMob{
+    margin-left: 141px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 22px;
+        padding-left: 22px;
+    }
+    .redPlanetMob{
+        font-size: 15px;
+        padding-left: 22px;
+    }
+}
+@media screen and (max-width: 435px) {
+.BenefitsMob{
+    margin-left: 135px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 21px;
+        padding-left: 20px;
+    }
+    .redPlanetMob{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+.BenefitsMob{
+    margin-left: 131px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 20px;
+        padding-left: 18px;
+    }
+    .redPlanetMob{
+        font-size: 14px;
+        padding-left: 18px;
+    }
+
+
+}
+@media screen and (max-width: 415px) {
+.BenefitsMob{
+    margin-left: 125px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 19px;
+        padding-left: 16px;
+    }
+    .redPlanetMob{
+        font-size: 13px;
+        padding-left: 16px;
+    }
+
+
+
+}@media screen and (max-width: 400px) {
+.BenefitsMob{
+    margin-left: 118px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 19px;
+        padding-left: 16px;
+    }
+    .redPlanetMob{
+        font-size: 13px;
+        padding-left: 16px;
+    }
+
+
+
+}
+@media screen and (max-width: 395px) {
+.BenefitsMob{
+    margin-left: 118px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 14px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 14px;
+    }
+
+    .benefitsMob{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 385px) {
+.BenefitsMob{
+    margin-left: 114px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 12px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 12px;
+    }
+
+
+
+}
+@media screen and (max-width: 380px) {
+.BenefitsMob{
+    margin-left: 110px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+
+
+}
+@media screen and (max-width: 375px) {
+.BenefitsMob{
+    margin-left: 108px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+
+
+}
+@media screen and (max-width: 365px) {
+.BenefitsMob{
+    margin-left: 104px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+
+}@media screen and (max-width: 365px) {
+.BenefitsMob{
+    margin-left: 102px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 8px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+
+
+
+}@media screen and (max-width: 360px) {
+.BenefitsMob{
+    margin-left: 98px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 7px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 7px;
+    }
+
+
+}@media screen and (max-width: 355px) {
+.BenefitsMob{
+    margin-left: 94px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 6px;
+    }
+
+
+
+}@media screen and (max-width: 345px) {
+.BenefitsMob{
+    margin-left: 92px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 6px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 6px;
+    }
+
+
+
+}@media screen and (max-width: 335px) {
+.BenefitsMob{
+    margin-left: 90px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+
+
+}
+@media screen and (max-width: 330px) {
+.BenefitsMob{
+    margin-left: 88px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 4px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 4px;
+    }
+}
+@media screen and (max-width: 325px) {
+.BenefitsMob{
+    margin-left: 86px;
+    margin-top: 25px;
+}
+    .trevalMob{
+        font-size: 18px;
+        padding-left: 4px;
+    }
+    .redPlanetMob{
+        font-size: 12px;
+        padding-left: 3px;
+    }
+
+}
+
+
+
+
+
+.benefitsCSS {
+    display: flex;
+
+    /*border: 1px solid red;*/
+}
