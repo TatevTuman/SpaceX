@@ -1,14 +1,5 @@
 
-@media screen and (max-width: 330px) {
-    body{
-display: none;
-
-    }
-
-}
-
-
-.wrapper{
+.wrapper {
     /*margin: 100px auto;*/
     width: 130px;
     /*background-color: #000;*/
@@ -18,11 +9,11 @@ display: none;
     height: 35px;
 }
 
-#check-menu{
+#check-menu {
     display: none;
 }
 
-label{
+label {
     display: block;
     position: absolute;
     top: 0;
@@ -34,7 +25,7 @@ label{
     line-height: 40px;
 }
 
-.burger-line{
+.burger-line {
     position: absolute;
     top: 8px;
     right: 10px;
@@ -43,16 +34,15 @@ label{
     background-color: #fff;
     transition: .5s all;
 }
-
-.second, .third{
+.second, .third {
     top: 18px;
 }
 
-.fourth{
+.fourth {
     top: 28px;
 }
 
-.main-menu{
+.main-menu {
     display: block;
     position: absolute;
     width: 100%;
@@ -63,39 +53,175 @@ label{
     font-size: 0;
     overflow: hidden;
     transition: .5s all;
+    margin: -20px;
 }
 
-.main-menu a{
+.main-menu a {
     display: block;
     width: 100%;
     padding: 10px;
     color: white;
     text-decoration: none;
-    border-top: 1px solid rgba(255,255,255,.3);
-    background-color:#0c1117;
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    background-color: #0c1117;
 }
 
-.main-menu a:hover{
-    background-color: rgba(0,0,0,.9);
+.main-menu a:hover {
+    background-color: rgba(0, 0, 0, .9);
 }
 
-#check-menu:checked ~ .main-menu{
+#check-menu:checked ~ .main-menu {
     max-height: 500px;
     font-size: 16px;
 }
 
-#check-menu:checked ~ .first{
+#check-menu:checked ~ .first {
     display: none;
 }
 
-#check-menu:checked ~ .second{
+#check-menu:checked ~ .second {
     transform: rotate(45deg);
 }
 
-#check-menu:checked ~ .third{
+#check-menu:checked ~ .third {
     transform: rotate(-45deg);
 }
 
-#check-menu:checked ~ .fourth{
+#check-menu:checked ~ .fourth {
     display: none;
 }
+
+
+@media screen and (max-width: 335px) {
+    .burger-line {
+        right: 15px;
+    }
+}@media screen and (max-width: 330px) {
+    .burger-line {
+        right: 20px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .burger-line {
+        right: 25px;
+    }
+    .main-menu {
+
+        left: -30px;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .burger-line {
+        right: 30px;
+    }
+
+
+}@media screen and (max-width: 315px) {
+    .burger-line {
+        right: 35px;
+    }
+}@media screen and (max-width: 310px) {
+    .burger-line {
+        right: 40px;
+    }
+}@media screen and (max-width: 305px) {
+    .burger-line {
+        right: 45px;
+    }
+}@media screen and (max-width: 300px) {
+    .burger-line {
+        right: 50px;
+    }
+    .main-menu {
+
+        left: -30px;
+
+    }
+}@media screen and (max-width: 295px) {
+    .burger-line {
+        right: 55px;
+    }
+}@media screen and (max-width: 290px) {
+    .burger-line {
+        right: 60px;
+    }
+    .main-menu {
+
+        left: -50px;
+
+    }
+}@media screen and (max-width: 285px) {
+    .burger-line {
+        right: 65px;
+    }
+}@media screen and (max-width: 280px) {
+    .burger-line {
+        right: 65px;
+    }
+}@media screen and (max-width: 275px) {
+    .burger-line {
+        right: 70px;
+    }
+}@media screen and (max-width: 270px) {
+    .burger-line {
+        right: 75px;
+    }
+}@media screen and (max-width: 265px) {
+    .burger-line {
+        right: 80px;
+    }
+    .main-menu {
+
+        left: -70px;
+
+    }
+}@media screen and (max-width: 260px) {
+    .burger-line {
+        right: 85px;
+    }
+}@media screen and (max-width: 255px) {
+    .burger-line {
+        right: 90px;
+    }
+}@media screen and (max-width: 250px) {
+    .burger-line {
+        right: 95px;
+    }
+}@media screen and (max-width: 245px) {
+    .burger-line {
+        right: 100px;
+    }
+}@media screen and (max-width: 240px) {
+    .burger-line {
+        right: 105px;
+    }
+    .main-menu {
+
+        left: -90px;
+
+    }
+}@media screen and (max-width: 235px) {
+    .burger-line {
+        right: 110px;
+    }
+}@media screen and (max-width: 230px) {
+    .burger-line {
+        right: 115px;
+    }
+    .main-menu {
+
+        left: -100px;
+
+    }
+}@media screen and (max-width: 225px) {
+    .burger-line {
+        right: 120px;
+    }
+    .main-menu {
+
+        left: -120px;
+
+    }
+}
+

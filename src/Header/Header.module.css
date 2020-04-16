@@ -20,7 +20,7 @@
     color:white;
     text-decoration: none;
     font-size: 20px;
-    padding: 19px;
+    padding: 10px;
 }
 
 .menu_icon_wrapper{
@@ -155,8 +155,7 @@
     }
 
 }
-@media screen and (max-width: 800px) {
-
+@media screen and (max-width: 250px) {
 
 
 

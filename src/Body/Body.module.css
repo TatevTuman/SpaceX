@@ -88,7 +88,8 @@ button {
         margin-top: 230px;
         margin-left: 10px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -103,7 +104,8 @@ button {
         margin-top: 235px;
         margin-left: 10px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 
@@ -118,7 +120,8 @@ button {
         margin-top: 235px;
         margin-left: 10px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 
@@ -131,11 +134,13 @@ button {
 
 @media screen and (max-width: 10000px) {
 
-    .bodyMob{
+    .bodyMob {
         display: none;
     }
 
-}@media screen and (max-width: 1550px) {
+}
+
+@media screen and (max-width: 1550px) {
     .border_gradient_purple {
         font-size: 14px;
     }
@@ -144,7 +149,8 @@ button {
         margin-top: 235px;
         margin-left: -6px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 
@@ -156,7 +162,8 @@ button {
         margin-top: 220px;
         margin-left: -18px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -172,7 +179,8 @@ button {
         margin-left: -25px;
 
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -191,7 +199,8 @@ button {
     button {
         padding: 5px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -210,7 +219,8 @@ button {
     button {
         padding: 4px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -229,7 +239,8 @@ button {
     button {
         padding: 4px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -248,7 +259,8 @@ button {
     button {
         padding: 4px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -267,7 +279,8 @@ button {
     button {
         padding: 4px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
@@ -277,63 +290,73 @@ button {
         font-size: 15px;
         margin: 30px;
     }
+
     .treval {
         display: block;
     }
+
     .redPlanet {
         display: block;
     }
+
     .mobVertion {
         text-align: center;
         margin-top: -100px;
     }
+
     .benefitsCSS {
         margin-top: 50px;
         /*margin-left: 80px;*/
     }
-.mobVertion{
-    /*border: 3px solid pink;*/
-    text-align: left;
-    margin-top: -50px;
-    margin-left: 35px;
-}
+
+    .mobVertion {
+        /*border: 3px solid pink;*/
+        text-align: left;
+        margin-top: -50px;
+        margin-left: 35px;
+    }
+
     .boxOne .treval {
         font-size: 27px;
     }
+
     .border_gradient_purple {
         font-size: 13px;
         margin-left: -1px;
     }
-    .bodyMob{
+
+    .bodyMob {
         display: none;
     }
 }
 
 
-
 @media screen and (max-width: 500px) {
-    .bodyContent{
+    .bodyContent {
         display: none;
     }
 
-    .bodyMob{
+    .bodyMob {
         display: block;
     }
-    .trevalMob{
+
+    .trevalMob {
         font-size: 22px;
         background: linear-gradient(45deg, #ffffff 40%, #ff541f 79%, #ff440b);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-left: 30px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 15px;
         background: linear-gradient(45deg, #ffffff 10%, #ffe8e1 40%, #ffb69f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-left: 30px;
     }
-    .border_gradient_purpleMob{
+
+    .border_gradient_purpleMob {
         font-size: 15px;
         border-image-source: linear-gradient(to left, white, #273f66);
         outline: none;
@@ -344,75 +367,73 @@ button {
 
     }
 
-.BenefitsMob{
+    .bodyStyle {
+        display: block;
 
-    margin-left: 160px;
-    margin-top: 25px;
-}
+    }
+
+    .BenefitsMob {
+
+        margin: 0 auto;
+        width: 150px;
+        margin-top: 30px;
+    }
 
 
 }
 
 
 @media screen and (max-width: 475px) {
-.BenefitsMob{
-    margin-left: 155px;
-    margin-top: 25px;
-}
+
 }
 
 @media screen and (max-width: 470px) {
-.BenefitsMob{
-    margin-left: 149px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 22px;
         padding-left: 28px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 15px;
         padding-left: 28px;
     }
 }
+
 @media screen and (max-width: 455px) {
-.BenefitsMob{
-    margin-left: 144px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 22px;
         padding-left: 26px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 15px;
         padding-left: 26px;
     }
 }
+
 @media screen and (max-width: 445px) {
-.BenefitsMob{
-    margin-left: 141px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 22px;
         padding-left: 22px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 15px;
         padding-left: 22px;
     }
 }
+
 @media screen and (max-width: 435px) {
-.BenefitsMob{
-    margin-left: 135px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 21px;
         padding-left: 20px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 14px;
         padding-left: 20px;
     }
@@ -421,252 +442,228 @@ button {
 }
 
 @media screen and (max-width: 425px) {
-.BenefitsMob{
-    margin-left: 131px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 20px;
         padding-left: 18px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 14px;
         padding-left: 18px;
     }
 
 
 }
+
 @media screen and (max-width: 415px) {
-.BenefitsMob{
-    margin-left: 125px;
-    margin-top: 25px;
-}
-    .trevalMob{
+    .trevalMob {
         font-size: 19px;
         padding-left: 16px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 13px;
         padding-left: 16px;
     }
 
 
-
-}@media screen and (max-width: 400px) {
-.BenefitsMob{
-    margin-left: 118px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 400px) {
+
+    .trevalMob {
         font-size: 19px;
         padding-left: 16px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 13px;
         padding-left: 16px;
     }
 
 
-
 }
+
 @media screen and (max-width: 395px) {
-.BenefitsMob{
-    margin-left: 118px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 14px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 14px;
     }
 
-    .benefitsMob{
+    .benefitsMob {
         font-size: 40px;
     }
 
 }
 
 @media screen and (max-width: 385px) {
-.BenefitsMob{
-    margin-left: 114px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 12px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 12px;
     }
 
 
-
 }
+
 @media screen and (max-width: 380px) {
-.BenefitsMob{
-    margin-left: 110px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 10px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 10px;
     }
 
 
-
 }
+
 @media screen and (max-width: 375px) {
-.BenefitsMob{
-    margin-left: 108px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 10px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 10px;
     }
 
 
-
 }
+
 @media screen and (max-width: 365px) {
-.BenefitsMob{
-    margin-left: 104px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 10px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 10px;
     }
 
 
-}@media screen and (max-width: 365px) {
-.BenefitsMob{
-    margin-left: 102px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 365px) {
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 8px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 8px;
     }
 
 
-
-}@media screen and (max-width: 360px) {
-.BenefitsMob{
-    margin-left: 98px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 360px) {
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 7px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 7px;
     }
 
 
-}@media screen and (max-width: 355px) {
-.BenefitsMob{
-    margin-left: 94px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 355px) {
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 6px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 6px;
     }
 
 
-
-}@media screen and (max-width: 345px) {
-.BenefitsMob{
-    margin-left: 92px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 345px) {
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 6px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 6px;
     }
 
 
-
-}@media screen and (max-width: 335px) {
-.BenefitsMob{
-    margin-left: 90px;
-    margin-top: 25px;
 }
-    .trevalMob{
+
+@media screen and (max-width: 335px) {
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 5px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 5px;
     }
 
 
-
 }
+
 @media screen and (max-width: 330px) {
-.BenefitsMob{
-    margin-left: 88px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 4px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 4px;
     }
 }
+
 @media screen and (max-width: 325px) {
-.BenefitsMob{
-    margin-left: 86px;
-    margin-top: 25px;
-}
-    .trevalMob{
+
+    .trevalMob {
         font-size: 18px;
         padding-left: 4px;
     }
-    .redPlanetMob{
+
+    .redPlanetMob {
         font-size: 12px;
         padding-left: 3px;
     }
 
 }
-
-
-
 
 
 .benefitsCSS {
